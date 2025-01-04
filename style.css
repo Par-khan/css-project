@@ -1,0 +1,58 @@
+.html{
+color: #F16529;
+}
+/* ye he class seloctor */
+.css{
+color: #2965F1;
+}
+.javascript{
+    color:#E8D44D ;
+}
+.react{
+    color:#a45252;
+}
+.angular{
+    color:#D6002F;
+}
+li{
+    font-weight: bold;
+}
+#html{
+    font-size: 32px;
+}
+/* ye he id seloctor */
+#css{
+    font-size: 32px;
+}
+#javascript{
+    font-size: 32px;
+}
+#react{
+    font-size: 32px;
+}
+#angular{
+    font-size: 32px;
+}
+[parvej]{
+    background-color: #815441;
+}
+/* ye he attribute selector */
+/* [class]{
+    background-color: #56837b;
+} */
+p{
+    background-color:green;
+}
+/* cselectorombine  */
+ul p{
+    background-color: yellow;
+}
+/* select  spceific usko select
+ krta h ye is decendent selector khete h*/
+ h1:hover{
+    color:blue;
+}
+/* sudo selector h ye  */
+[parvej]:hover{
+    color: red;
+}
